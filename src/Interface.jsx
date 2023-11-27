@@ -113,6 +113,23 @@ export default function Interface() {
                 ) }
                 
             </button>
+
+            { status === 'outro' && (
+              <div className="reward-section">
+              <br/>
+              <br/>
+              <h3>Congratulations on reaching this milestone! 🎉</h3>
+  
+  <br/>
+      <h2>
+      <p>As a token of appreciation, check out the rewards:</p>
+   
+      <a href="https://github.com/ayan759619/TicTacOdyssey"> SOURCE CODE of this project   <FaGithub /></a>
+      </h2>
+      <br/>
+      <p>If you enjoyed the game, please consider leaving a ⭐️ star on this GitHub project!  Your support means a lot!</p>
+    </div>
+                ) }
       </div>
     </div>
   );
