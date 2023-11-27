@@ -1,0 +1,32 @@
+{
+  "name": "threejs-journey-bounce-friday",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "4.2",
+    "vite": "^5.0.0"
+  },
+  "dependencies": {
+    "@react-three/drei": "^9.88.16",
+    "@react-three/fiber": "^8.15.11",
+    "@react-three/postprocessing": "^2.15.11",
+    "@react-three/rapier": "^1.1.2",
+    "animejs": "^3.2.1",
+    "ecctrl": "^1.0.45",
+    "howler": "^2.2.4",
+    "leva": "^0.9.35",
+    "r3f-perf": "^7.1.2",
+    "react": "18.2",
+    "react-dom": "18.2",
+    "react-icons": "^4.12.0",
+    "three": "^0.158.0",
+    "vanta": "^0.5.24",
+    "vite-plugin-glsl": "^1.1.2",
+    "zustand": "4.4"
+  }
+}
